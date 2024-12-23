@@ -9,7 +9,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <Link href="/" className="text-2xl font-bold">
-              <span className="text-red-600">Fire</span>Academy.io
+              <span className="text-red-600">Fire</span><span className="text-gray-900">Academy.io</span>
             </Link>
           </div>
         </div>
@@ -19,7 +19,7 @@ export default function Home() {
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="w-full md:w-1/2 text-center md:text-left">
-            <h1 className="text-4xl font-bold mb-6">
+            <h1 className="text-4xl font-bold text-gray-900 mb-6">
               Service Discontinuation Notice
             </h1>
             <p className="text-xl text-gray-600 mb-4">
