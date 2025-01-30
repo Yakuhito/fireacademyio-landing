@@ -20,23 +20,19 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="w-full md:w-1/2 text-center md:text-left">
             <h1 className="text-4xl font-bold text-gray-900 mb-6">
-              Service Discontinuation Notice
+              Website Under Construction
             </h1>
             <p className="text-xl text-gray-600 mb-4">
-              The FireAcademy.io Chia RPC API will become unavailable on January 30th, 2025.
-            </p>
-            <p className="text-lg text-gray-600 mb-6">
-              You may still access your{' '}
-              <Link href="https://dashboard.fireacademy.io" className="text-red-600 hover:underline">
-                dashboard
-              </Link>{' '}
-              until the deadline.
+              Our new landing page is under construction.
             </p>
             <p className="text-lg text-gray-600">
               Our blog is available{' '}
               <Link href="https://blog.fireacademy.io" className="text-red-600 hover:underline">
                 here
               </Link>.
+            </p>
+            <p className="text-md text-gray-400 mt-4">
+              The FireAcademy.io Chia RPC API has shut down on January 30th, 2025, after serving the Chia community for 1041 days. FireAcademy SRL is now focusing on Chialisp development services.
             </p>
           </div>
           
